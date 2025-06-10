@@ -34,6 +34,13 @@ function NavbarComponent() {
             >
               Gerenciar Usuário
             </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/produtos"
+              className={({ isActive }) => (isActive ? "active fw-bold" : "")}
+            >
+              Cadastrar Produto
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

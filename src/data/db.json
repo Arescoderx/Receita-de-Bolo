@@ -1,3 +1,23 @@
 {
-  "usuarios": []
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@email.com"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "a33d",
+      "nome": "salada",
+      "preco": "0.07",
+      "usuarioId": "1"
+    },
+    {
+      "id": "132f",
+      "nome": "Gregori",
+      "preco": "1200",
+      "nomeUsuario": "João"
+    }
+  ]
 }

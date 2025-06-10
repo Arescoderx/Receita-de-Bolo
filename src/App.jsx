@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import UsuarioForm from "./pages/CadastrarUsuario.jsx";
 import EditarUsuario from "./pages/EditarUsuario";
 import ListaUsuarios from './pages/ListaUsuarios';
-
+import CadastrarProduto from './pages/CadastrarProduto';
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
           <Route path="/novo" element={<UsuarioForm />} />
           <Route path="/editar/:id" element={<EditarUsuario />} />
           <Route path="/usuarios" element={<ListaUsuarios />} />
+          <Route path="/produtos" element={<CadastrarProduto />} />
         </Routes>
       </div>
     </>

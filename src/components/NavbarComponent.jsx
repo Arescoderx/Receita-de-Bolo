@@ -41,6 +41,20 @@ function NavbarComponent() {
             >
               Cadastrar Produto
             </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/livros"
+              className={({ isActive }) => (isActive ? "active fw-bold" : "")}
+            >
+              Cadastrar Livro
+            </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/gerenciar-livros"
+              className={({ isActive }) => (isActive ? "active fw-bold" : "")}
+            >
+              Gerenciar Livros
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

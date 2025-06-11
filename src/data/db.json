@@ -19,5 +19,15 @@
       "preco": "1200",
       "nomeUsuario": "João"
     }
+  ],
+  "livros": [
+    {
+      "titulo": "Principe",
+      "autor": "Geremias",
+      "genero": "Conto de Fadas",
+      "status": "Lendo",
+      "nomeUsuario": "João",
+      "id": "0299"
+    }
   ]
 }

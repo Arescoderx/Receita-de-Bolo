@@ -55,6 +55,21 @@ function NavbarComponent() {
             >
               Gerenciar Livros
             </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/cursos"
+              className={({ isActive }) => (isActive ? "active fw-bold" : "")}
+            >
+              Cadastrar Curso
+            </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/gerenciar-cursos"
+              className={({ isActive }) => (isActive ? "active fw-bold" : "")}
+            >
+              Gerenciar Cursos
+            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

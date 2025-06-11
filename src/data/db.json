@@ -29,5 +29,20 @@
       "nomeUsuario": "João",
       "id": "0299"
     }
+  ],
+  "cursos": [
+    {
+      "id": "724e",
+      "nome": "React",
+      "plataforma": "Cisco",
+      "categoria": "Programação",
+      "cargaHoraria": "12",
+      "nomeUsuario": "João",
+      "dataInicio": "2025-05-07",
+      "dataTermino": "2025-07-04",
+      "descricao": "Curso sla oq do joao",
+      "status": "Em andamento",
+      "urlCertificado": "http://localhost:5173/cursos"
+    }
   ]
 }
